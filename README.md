@@ -9,4 +9,6 @@ sudo apt-get install idle3  
 - **修改默认python版本**。
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python2 100  
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 150  
-sudo update-alternatives --config python 
+sudo update-alternatives --config python   
+- **tkinter**. 
+sudo apt-get install python3-tk 不行的话 sudo apt-get update
